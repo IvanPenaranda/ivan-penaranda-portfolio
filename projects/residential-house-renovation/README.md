@@ -1,4 +1,4 @@
-# 🏠 Residential House Renovation
+# Residential House Renovation
 
 ## Project Overview
 
