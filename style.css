@@ -366,3 +366,24 @@ footer{
     opacity:1;
 
 }
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+    margin:40px 0 70px;
+}
+
+.skills span{
+    background:#243042;
+    color:white;
+    padding:14px 24px;
+    border-radius:40px;
+    font-size:18px;
+    transition:.3s;
+}
+
+.skills span:hover{
+    background:#38bdf8;
+    transform:translateY(-4px);
+}
