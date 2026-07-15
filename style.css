@@ -463,3 +463,16 @@ PROJECT HIGHLIGHTS
 .card:hover .project-cover{
     transform:scale(1.05);
 }
+
+.cards{
+    align-items:stretch;
+}
+
+.card{
+    display:flex;
+    flex-direction:column;
+}
+
+.card .button{
+    margin-top:auto;
+}
