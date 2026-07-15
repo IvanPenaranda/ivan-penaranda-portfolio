@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Residential BIM Model | Ivan Penaranda</title>
+    <link rel="stylesheet" href="../../style.css">
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <div class="logo">Ivan Penaranda</div>
+        <ul>
+            <li><a href="../../index.html">← Back to Portfolio</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="project-detail">
+
+    <div class="hero-slider">
+
+    <img src="images/3d-external-isometric.png" class="active">
+
+    <img src="images/3d-internal-isometric.png">
+
+    <img src="images/cross-section.png">
+
+</div>
+
+    <h1>3D Residential BIM Model</h1>
+    <p class="project-subtitle">
+    Complete residential BIM model developed in Autodesk Revit, including architectural modelling, furnished floor plans, elevations, building sections, schedules and coordinated 3D views.
+</p>
+
+    <div class="project-info">
+
+    <div>
+        <strong>Project Type:</strong>
+        Residential Architectural BIM Model
+    </div>
+
+    <div>
+        <strong>Software:</strong>
+        Autodesk Revit
+    </div>
+
+    <div>
+        <strong>Scope:</strong>
+        3D BIM Modelling and Documentation
+    </div>
+
+    <div>
+        <strong>Deliverables:</strong>
+        3D Model, Plans, Elevations, Sections and PDF Drawing Set
+    </div>
+
+</div>
+
+    <h2>Project Overview</h2>
+    <p>
+This project involved creating a complete 3D residential Building Information Model (BIM) in Autodesk Revit from architectural documentation. The model includes walls, floors, roofs, doors, windows, furniture, sections, elevations, and coordinated 3D views. The final deliverables included a complete drawing package exported as PDF.
+</p>
+
+    <h2>Skills Applied</h2>
+
+<div class="skills">
+
+    <span>AutoCAD</span>
+
+    <span>Revit</span>
+
+    <span>Architectural Drafting</span>
+
+    <span>Residential Design</span>
+
+    <span>Floor Plans</span>
+
+    <span>Elevations</span>
+
+    <span>Sections</span>
+
+    <span>Site Plans</span>
+
+    <span>Construction Documentation</span>
+
+    <span>Drawing Coordination</span>
+
+</div>
+
+    <h2>Drawing Gallery</h2>
+
+    <div class="gallery">
+
+    <a href="images/3d-external-isometric.png" target="_blank">
+        <img src="images/3d-external-isometric.png" alt="3D External View">
+        <p>3D External View</p>
+    </a>
+
+    <a href="images/3d-internal-isometric.png" target="_blank">
+        <img src="images/3d-internal-isometric.png" alt="3D Internal View">
+        <p>3D Internal View</p>
+    </a>
+
+    <a href="images/Floor-level-furniture.png" target="_blank">
+        <img src="images/Floor-level-furniture.png" alt="Floor Plan">
+        <p>Floor Plan with Furniture</p>
+    </a>
+
+    <a href="images/Views.png" target="_blank">
+        <img src="images/Views.png" alt="Elevations">
+        <p>Elevations</p>
+    </a>
+
+    <a href="images/cross-section.png" target="_blank">
+        <img src="images/cross-section.png" alt="Building Section">
+        <p>Building Section</p>
+    </a>
+
+</div>
+
+    <h2>Download</h2>
+
+    <a href="drawings/Residential-BIM-Model.pdf" download class="download-btn">
+    Download Drawing Package
+</a>
+
+</section>
+
+<script>
+const slides = document.querySelectorAll(".hero-slider img");
+
+let current = 0;
+
+setInterval(() => {
+    slides[current].classList.remove("active");
+    current = (current + 1) % slides.length;
+    slides[current].classList.add("active");
+}, 3000);
+</script>
+
+</body>
+</html>
