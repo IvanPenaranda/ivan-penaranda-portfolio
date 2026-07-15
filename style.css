@@ -387,3 +387,57 @@ footer{
     background:#38bdf8;
     transform:translateY(-4px);
 }
+
+/*==========================
+PROJECT HIGHLIGHTS
+===========================*/
+
+.project-highlights{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+    gap:30px;
+
+    margin-top:35px;
+
+    margin-bottom:70px;
+
+}
+
+.highlight-card{
+
+    background:#1f2937;
+
+    border-radius:15px;
+
+    padding:30px;
+
+    transition:.35s;
+
+}
+
+.highlight-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 15px 40px rgba(0,0,0,.35);
+
+}
+
+.highlight-card h3{
+
+    color:#38bdf8;
+
+    margin-bottom:20px;
+
+}
+
+.highlight-card p{
+
+    font-size:18px;
+
+    line-height:1.8;
+
+}
