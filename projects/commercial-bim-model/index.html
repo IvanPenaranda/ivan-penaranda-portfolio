@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Residential House Renovation | Ivan Penaranda</title>
+    <link rel="stylesheet" href="../../style.css">
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <div class="logo">Ivan Penaranda</div>
+        <ul>
+            <li><a href="../../index.html">← Back to Portfolio</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="project-detail">
+
+    <div class="hero-slider">
+
+    <img src="images/commercial-1.png" class="active" alt="Commercial BIM Model">
+
+    <img src="images/commercial-2.png" alt="Commercial BIM Model">
+
+    <img src="footing.png" alt="Commercial BIM Model">
+
+    <img src="ground-floor.png" alt="Commercial BIM Model">
+
+    <img src="section-1.png" alt="Commercial BIM Model">
+
+    <img src="clash-detection.png" alt="Commercial BIM Model">
+
+</div>
+
+    <h1>3D Commercial BIM Model</h1>
+    <p class="project-subtitle">
+        Complete commercial structural BIM model developed in Autodesk Revit from 2D drawings, including foundations, columns, beams, slabs, stair core and BIM coordination with clash detection.
+    </p>
+
+    <div class="project-info">
+        <div><strong>Project Type:</strong> Commercial Structural BIM</div>
+        <div><strong>Software:</strong> Autodesk Revit 2026</div>
+        <div><strong>Location:</strong> Perth, Western Australia</div>
+        <div><strong>Deliverables:</strong> 3D BIM Model, Structural Model, Clash Detection Report</div>
+    </div>
+
+    <h2>Project Overview</h2>
+    <p>
+This project involved converting a complete set of 2D commercial building drawings into a fully coordinated 3D structural BIM model using Autodesk Revit.
+
+The structural model includes reinforced concrete footings, columns, beams, suspended floor slabs and the complete stair core. After modelling, BIM coordination was performed using Revit Interference Check to identify clashes between structural and architectural components.
+</p>
+
+    <h2>Skills Applied</h2>
+
+<div class="skills">
+
+    <span>AutoCAD</span>
+
+    <span>Revit</span>
+
+    <span>Architectural Drafting</span>
+
+    <span>Residential Design</span>
+
+    <span>Floor Plans</span>
+
+    <span>Elevations</span>
+
+    <span>Sections</span>
+
+    <span>Site Plans</span>
+
+    <span>Construction Documentation</span>
+
+    <span>Drawing Coordination</span>
+
+</div>
+
+    <h2>Project Gallery</h2>
+
+    <div class="gallery">
+
+    <a href="images/commercial-1.png" target="_blank">
+        <img src="images/commercial-1.png" alt="Overall commercial BIM model">
+        <p>Overall Structural BIM Model</p>
+    </a>
+
+    <a href="images/commercial-2.png" target="_blank">
+        <img src="images/commercial-2.png" alt="Commercial BIM stair core">
+        <p>Stair Core and Structural Framing</p>
+    </a>
+
+    <a href="images/footing.png" target="_blank">
+        <img src="images/footing.png" alt="Commercial building footing layout">
+        <p>Foundation and Footing Layout</p>
+    </a>
+
+    <a href="images/ground-floor.png" target="_blank">
+        <img src="images/ground-floor.png" alt="Commercial building ground floor">
+        <p>Ground Floor Structural Plan</p>
+    </a>
+
+    <a href="images/section-1.png" target="_blank">
+        <img src="images/section-1.png" alt="Commercial building structural section">
+        <p>Building Section</p>
+    </a>
+
+    <a href="images/clash-detection.png" target="_blank">
+        <img src="images/clash-detection.png" alt="BIM clash detection review">
+        <p>BIM Clash Detection and Coordination</p>
+    </a>
+
+</div>
+
+</div>
+
+    <h2>Download</h2>
+
+    <a class="button" href="drawings/Residential House Renovation Drawing Set.pdf" target="_blank">
+        Download Drawing Package
+    </a>
+
+</section>
+
+<script>
+const slides = document.querySelectorAll(".hero-slider img");
+
+let current = 0;
+
+setInterval(() => {
+    slides[current].classList.remove("active");
+    current = (current + 1) % slides.length;
+    slides[current].classList.add("active");
+}, 3000);
+</script>
+
+</body>
+</html>
