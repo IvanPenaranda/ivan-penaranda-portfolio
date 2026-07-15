@@ -353,9 +353,7 @@ footer{
 
     height:100%;
 
-    object-fit:contain;
-
-    background:white;
+    object-fit:cover;
 
     opacity:0;
 
