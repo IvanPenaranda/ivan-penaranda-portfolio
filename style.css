@@ -441,3 +441,25 @@ PROJECT HIGHLIGHTS
     line-height:1.8;
 
 }
+
+/* ===========================
+   Project Card Images
+=========================== */
+
+.project-cover{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    display:block;
+    border-radius:12px;
+    margin-bottom:20px;
+    transition:0.35s;
+}
+
+.card{
+    overflow:hidden;
+}
+
+.card:hover .project-cover{
+    transform:scale(1.05);
+}
