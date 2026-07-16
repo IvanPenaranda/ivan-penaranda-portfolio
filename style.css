@@ -334,35 +334,26 @@ footer{
 }
 
 .hero-slider{
-
     width:100%;
-
-    height:520px;
-
+    max-width:1400px;
+    height:500px;
     position:relative;
-
     overflow:hidden;
-
     border-radius:18px;
-
-    margin-bottom:60px;
-
+    margin:30px auto 60px;
+    background:#ffffff;
 }
 
 .hero-slider img{
-
     position:absolute;
-
+    inset:0;
     width:100%;
-
     height:100%;
-
-    object-fit:cover;
-
+    object-fit:contain;
+    object-position:center;
+    background:#ffffff;
     opacity:0;
-
     transition:opacity 1s ease;
-
 }
 
 .hero-slider img.active{
@@ -498,4 +489,16 @@ PROJECT HIGHLIGHTS
 .download-btn:hover{
     background:#0ea5e9;
     transform:translateY(-3px);
+}
+
+@media (max-width: 900px){
+    .hero-slider{
+        height:360px;
+    }
+}
+
+@media (max-width: 600px){
+    .hero-slider{
+        height:260px;
+    }
 }
